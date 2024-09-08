@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CM:Reborn</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-image: url('https://img.picui.cn/free/2024/09/08/66dd0ea0cdb8a.png');
+            background-size: cover;
+            background-position: top;
+        }
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            padding: 10px 20px;
+            background-color: rgba(0, 0, 0, 0.9);
+            color: #fff;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+        
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+        
+        .logo img {
+            max-height: 100%;
+            width: auto;
+            height: 45px;
+        }
+        .logo + img {
+            margin-left: 20px;
+        }
+        .center-image {
+            position: absolute;
+            top: 20%; /* Adjust this value to change the vertical position */
+            left: 50%;
+            transform: translateX(-50%);
+            opacity: 0; /* Initial state is fully transparent */
+            transition: opacity 2s ease-in-out; /* Fade-in effect */
+        }
+        /* JavaScript to fade in the image after the page loads */
+        window.onload = function() {
+            var image = document.querySelector('.center-image');
+            setTimeout(function() {
+                image.style.opacity = 1; /* Change opacity to 1 to make it visible */
+            }, 2000); /* Delay of 2 seconds before fading in */
+        };
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <img src="https://img.picui.cn/free/2024/09/08/66dd1d979fe3f.png" alt="Logo">
+        </div>
+        <img src="https://img.picui.cn/free/2024/09/08/66dd1d8520ecb.png" alt="直链图片" style="max-width: 60%; height: auto;">
+    </div>
+<!-- 矩形按钮 -->
+<div style="position: fixed; bottom: 90px; left: 50%; transform: translateX(-50%); text-align: center;">
+     <a href="https://1-180-25-9.pd1.cjjd19.com:30443/download-cdn.cjjd19.com/123-590/6a1aa866/1815882704-0/6a1aa866afeeb34e4cc9c789d9bf024e/c-m42?v=5&t=1725857082&s=172585708203e2af8803d6028334c58071386fedc1&r=HM2FW4&bzc=2&bzs=313831353838323730343a343431373038353a3735353334363834313a31383135383832373034&filename=CmReborn.APK&x-mf-biz-cid=8bbd944b-e44b-42c7-a949-e60bd879e499-6eaa77&auto_redirect=0&cache_type=1&xmfcid=6084b41d-2549-4911-b2c1-88150d74ac9e-1-50111d3b1" target="_blank" style="text-decoration: none;">
+         <div style="display: inline-block; padding: 3px; background-color: #f45428; border-radius: 10px; border: 3px solid #2a2a2a; width: 220px; height: 45px; line-height: 45px; text-align: center; color: #fff; font-family: Arial, sans-serif; font-size: 20px;">
+             下载游戏
+         </div>
+     </a>
+</div>
+<div style="position: fixed; bottom: 50px; left: 50%; transform: translateX(-50%); text-align: center;">
+     <a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=yRsSGGtYH2OfNjhBjUxv1AjZvm2TM-T_&authKey=5NBQENUZRJfiTROouBVQ0qjmiiDWmR6A%2Bk8CKdcsaCo6ziZ7PSlV96qjhoYSRcpm&noverify=0&group_code=938900842" target="_blank" style="text-decoration: none;">
+         <div style="display: inline-block; padding: 3px; background-color: #2a2a2a; border-radius: 10px; border: 3px solid #2a2a2a; width: 220px; height: 25px; line-height: 25px; text-align: center; color: #666666; font-family: Arial, sans-serif; font-size: 15px;">
+             加入交流群
+         </div>
+     </a>
+</div>
+</body>
+
+  </html>
